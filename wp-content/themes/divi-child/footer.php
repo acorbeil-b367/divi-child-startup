@@ -1,6 +1,3 @@
-<div class="formateurs_agrees">
-	<?php echo do_shortcode("[showmodule id=206]"); ?>
-</div>
 <?php if ( 'on' == et_get_option( 'divi_back_to_top', 'false' ) ) : ?>
 
 	<span class="et_pb_scroll_top et-pb-icon"></span>

@@ -1,1 +1,1 @@
-# divi-child-startup
+# Divi Child for new Wordpress project

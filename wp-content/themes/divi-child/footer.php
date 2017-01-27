@@ -3,7 +3,9 @@
 	<span class="et_pb_scroll_top et-pb-icon"></span>
 
 <?php endif; ?>
-
+<?php 
+if (!is_page_template('page-template-blank.php')): ?>
+ ?>
 			<footer id="main-footer">
 				<?php get_sidebar( 'footer' ); ?>
 
@@ -36,6 +38,7 @@
 
 					echo et_get_footer_credits();
 				?>
+			<?php endif; ?>
 					</div>	<!-- .container -->
 				</div>
 			</footer> <!-- #main-footer -->
